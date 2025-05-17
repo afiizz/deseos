@@ -1,0 +1,72 @@
+/* Fondo general */
+body {
+  background-color: #fffbe6; /* amarillo muy claro */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 2rem;
+  color: #333;
+}
+
+/* Título */
+h2 {
+  color: #b8860b; /* dorado oscuro */
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/* Formulario */
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #fff8d1;
+  border: 2px solid #f1c40f;
+  border-radius: 10px;
+  padding: 2rem;
+  box-shadow: 0 0 10px rgba(255, 204, 0, 0.3);
+}
+
+/* Etiquetas personalizadas */
+.letra {
+  font-weight: bold;
+  display: block;
+  margin-top: 1.2rem;
+  color: #5c4a00;
+}
+
+/* Inputs personalizados */
+.textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.3rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Inputs generales */
+input[type="radio"] {
+  margin-right: 0.4rem;
+}
+
+/* Botón */
+button {
+  background-color: #f1c40f;
+  color: #fff;
+  padding: 0.7rem 1.5rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 1.5rem;
+  transition: background-color 0.3s ease;
+  display: block;
+}
+
+button:hover {
+  background-color: #d4ac0d;
+}
+
+/* Párrafos descriptivos */
+p {
+  margin-top: 1.5rem;
+  color: #7d6608;
+}

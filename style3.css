@@ -1,0 +1,130 @@
+/*GENERICO*/
+* {
+    margin: 15px;
+}
+
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #f4f4f4;
+    background-image: url(fondo.png);
+    background-repeat: repeat; /* o no-repeat si no quieres que se repita */
+    background-size: contain; /* o cover para cubrir toda la pantalla */
+    background-color: #f9f5f0; /* color neutro de fondo por si la imagen no carga */
+    margin: 0;
+}
+
+h1{
+    background-color: #a8a500;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    font-size: 50px;
+}
+
+/*ENCABEZADOS*/
+.header{
+    font-size: 20px;
+    color: #6c751b;
+    text-align: center;
+}
+
+h2{
+    text-shadow: 2px 2px 4px #d3cf04;
+    font-size: 25px;
+}
+
+h3{
+    color: #a39905;
+}
+
+/*DESEOS*/
+.deseo{
+background-color: #fff;
+    margin: 15px auto;
+    padding: 20px;
+    width: 80%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+.deseo button {
+    background-color: #d3cf04;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#link{
+    text-decoration: none;
+    color: white;
+}
+
+/*FORMULARIO*/
+.caja-nombre{
+    width: 90%;
+}
+
+.caja-deseo{
+  width: 90%;
+  height: 100px;  
+} 
+
+.cuentabank{
+    width: 200px;
+}
+
+.numero{
+    width: 200px;
+}
+
+form{
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    margin: 15px auto;
+    padding: 20px;
+    width: 80%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+input, textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+    background-color: #d3cf04;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #e6e201;
+}
+
+/* Pie de Página */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+footer a {
+    color: #d3cf04;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,47 @@
+/*PRUEBA DE UNIDADES*/
+#contenedor-principal {
+    color: white;
+    padding: 5px;
+    font-size: 15px;
+    background-color: yellow;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+.rectangulo {
+    padding: 5px;
+    margin: 5px;
+}
+
+.px {
+    background-color: crimson;
+    width: 200px;
+}
+/*UNIDAD RELATIVA AL TAMAÑO DE LA VENTANA DEL NAVEGADOR*/
+.vw {
+    background-color: darkmagenta;
+    width: 20vw;
+}
+/*UNIDAD RELATIVA A LA LONGITUD DEL TEXTO*/
+.em {
+    background-color: green;
+    width: 15em;
+    font-size: 5em;
+}
+
+/*QUIEN PRIORIZA: class1 o class2*/
+.texto-azul{
+    color: blue;
+}
+.texto-morado{
+    color: purple;
+}
+/*LA ULTIMA CLASE ES LA QUE PRIORIZA EN CSS, EN HTML NO IMPORTA*/
+
+/*QUIEN PRIORIZA: ID o CLASS*/
+#titulo{
+    color: rgb(128, 0, 0);
+}
+
+.texto-azul{
+    color: blue;
+}
+/*EL ID PRIORIZA*/
